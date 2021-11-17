@@ -3,7 +3,7 @@ name: checkin
 on:
   workflow_dispatch:
   schedule:
-    - cron: "35 23 * * *"
+    - cron: "01 16 * * *"
   watch:
     types: [ started ]
 
